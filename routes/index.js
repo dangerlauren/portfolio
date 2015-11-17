@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var mongoose = require('mongoose');
+// var mongoose = require('mongoose');
 
 // var Joke = require('./models/joke');
 
@@ -15,9 +15,9 @@ router.get('/about', function(req, res, next) {
 });
 
 /* GET projects page. */
-router.get('/projects', function(req, res, next) {
-  res.render('projects', { title: 'Lauren Grant' });
-});
+// router.get('/projects', function(req, res, next) {
+//   res.render('projects', { title: 'Lauren Grant' });
+// });
 
 /* GET resume page. */
 router.get('/resume', function(req, res, next) {
@@ -25,8 +25,8 @@ router.get('/resume', function(req, res, next) {
 });
 
 /* GET jokes page. */
-router.get('/jokes', function(req, res, next) {
-  res.render('jokes', { title: 'Lauren Grant' });
+// router.get('/jokes', function(req, res, next) {
+//   res.render('jokes', { title: 'Lauren Grant' });
 
 	// var j = function() {
 
@@ -45,7 +45,7 @@ router.get('/jokes', function(req, res, next) {
 	//   });
 	// }
 	// joke();
-});
+// });
 
 
 
