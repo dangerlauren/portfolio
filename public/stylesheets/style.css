@@ -74,7 +74,8 @@ h1 {
 	list-style: none;
 	display: inline;
 	text-align: center;
-	padding-right: 25px;
+	margin-right: auto;
+	margin-left: -35px;
 }
 
 #smedia li {
