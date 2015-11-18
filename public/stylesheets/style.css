@@ -12,6 +12,11 @@ a {
   color: #00B7FF;
 }
 
+#logo {
+	color: #660099;
+	font-family: 'Sofia', cursive;
+}
+
 .hover:hover {
 	background: #6699FF;
 }
